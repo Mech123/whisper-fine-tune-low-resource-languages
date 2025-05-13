@@ -1,0 +1,10 @@
+python -m venv my_venv
+py -m pip install numpy
+Powershell ->
+Set-ExecutionPolicy Unrestricted A
+.\my_venv\Scripts\activate
+pip install pandas
+
+Create another virtual environment with different python version in same project folder :
+py -3.12 -m venv new-env
+.\new-env\Scripts\activate

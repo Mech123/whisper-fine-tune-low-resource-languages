@@ -1,0 +1,10 @@
+Steps for enabling Cuda powered processing :
+Check cuda compatibility for your Nvidia GPU - https://developer.nvidia.com/cuda-gpus
+Install Cuda Toolkit- https://developer.nvidia.com/cuda-downloads
+Create project environment and run following command (cuda version may vary)
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+pip install torch==2.0.1 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+
+Check cuda version :
+nvcc --version
+
