@@ -29,10 +29,3 @@ The following LLM and deep learning libraries were used in this project:
 
 ---
 
-## 🚀 Quick Start
-
-### 1. Clone the Repo
-
-```bash
-git clone https://github.com/yourusername/whisper-fine-tune-low-resource-languages.git
-cd whisper-fine-tune-low-resource-languages
